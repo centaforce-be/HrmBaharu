@@ -1,6 +1,6 @@
 ﻿using HrmBaharu.Infrastructure.Identity;
 
-namespace HrmBaharu.Web.Endpoints;
+namespace HrmBaharu.Api.Endpoints;
 
 public class Users : EndpointGroupBase
 {

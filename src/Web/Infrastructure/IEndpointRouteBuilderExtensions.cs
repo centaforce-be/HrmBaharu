@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics.CodeAnalysis;
 
-namespace HrmBaharu.Web.Infrastructure;
+namespace HrmBaharu.Api.Infrastructure;
 
 public static class IEndpointRouteBuilderExtensions
 {

@@ -1,6 +1,6 @@
 ﻿using System.Reflection;
 
-namespace HrmBaharu.Web.Infrastructure;
+namespace HrmBaharu.Api.Infrastructure;
 
 public static class WebApplicationExtensions
 {

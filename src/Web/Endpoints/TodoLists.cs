@@ -3,7 +3,7 @@ using HrmBaharu.Application.Features.TodoLists.Commands.UpdateTodoList;
 using HrmBaharu.Application.Features.TodoLists.Queries.GetTodos;
 using HrmBaharu.Application.Features.TodoLists.Commands.DeleteTodoList;
 
-namespace HrmBaharu.Web.Endpoints;
+namespace HrmBaharu.Api.Endpoints;
 
 public class TodoLists : EndpointGroupBase
 {

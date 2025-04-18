@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 
-namespace HrmBaharu.Web.Infrastructure;
+namespace HrmBaharu.Api.Infrastructure;
 
 public class CustomExceptionHandler : IExceptionHandler
 {

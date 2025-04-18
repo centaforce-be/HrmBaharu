@@ -1,4 +1,4 @@
-﻿namespace HrmBaharu.Web.Infrastructure;
+﻿namespace HrmBaharu.Api.Infrastructure;
 
 public abstract class EndpointGroupBase
 {

@@ -1,8 +1,7 @@
 ﻿using HrmBaharu.Application.Common.Interfaces;
 using HrmBaharu.Infrastructure.Data;
-using HrmBaharu.Web.Services;
+using HrmBaharu.Api.Services;
 using Microsoft.AspNetCore.Mvc;
-
 using NSwag;
 using NSwag.Generation.Processors.Security;
 
@@ -18,8 +17,7 @@ public static class DependencyInjection
 
         services.AddHttpContextAccessor();
 
-        services.AddHealthChecks()
-            .AddDbContextCheck<ApplicationDbContext>();
+        services.AddHealthChecks().AddDbContextCheck<ApplicationDbContext>();
 
         services.AddExceptionHandler<CustomExceptionHandler>();
 

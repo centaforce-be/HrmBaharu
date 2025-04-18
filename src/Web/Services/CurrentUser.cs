@@ -2,7 +2,7 @@
 
 using HrmBaharu.Application.Common.Interfaces;
 
-namespace HrmBaharu.Web.Services;
+namespace HrmBaharu.Api.Services;
 
 public class CurrentUser : IUser
 {

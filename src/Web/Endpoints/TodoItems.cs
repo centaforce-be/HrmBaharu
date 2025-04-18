@@ -5,7 +5,7 @@ using HrmBaharu.Application.Features.TodoItems.Commands.UpdateTodoItem;
 using HrmBaharu.Application.Features.TodoItems.Commands.UpdateTodoItemDetail;
 using HrmBaharu.Application.Features.TodoItems.Queries.GetTodoItemsWithPagination;
 
-namespace HrmBaharu.Web.Endpoints;
+namespace HrmBaharu.Api.Endpoints;
 
 public class TodoItems : EndpointGroupBase
 {
